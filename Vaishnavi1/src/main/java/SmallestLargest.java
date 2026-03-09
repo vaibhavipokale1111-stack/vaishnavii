@@ -10,7 +10,7 @@ public class SmallestLargest {
 
         int[] digits = new int[4];
 
-       
+
         for(int i=3; i>=0; i--){
             digits[i] = num % 10;
             num = num / 10;
